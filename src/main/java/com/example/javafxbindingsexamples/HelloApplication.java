@@ -55,7 +55,7 @@ public class HelloApplication extends Application {
                 rotateStage.show();
             });
 
-            // Stage 2: Bind Text Fields
+            // Stage 2: Bind Text Fields -
             bindTextFieldsButton.setOnAction(e -> {
                 Stage bindStage = new Stage();
                 TextField textField1 = new TextField();
